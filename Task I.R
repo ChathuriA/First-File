@@ -49,6 +49,7 @@ novices_experts
 ## Clustering vector:
 # 2 1 2 1 2 2 2 1
 
+
 str(novices_experts)
 fviz_cluster(novices_experts, data = data.frame(data))
 

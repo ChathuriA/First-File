@@ -28,4 +28,5 @@ library(ggfortify)
 library(ggplot2)
 pca_res <- prcomp(Task_II, scale. = TRUE)
 
+
 autoplot(pca_res)
