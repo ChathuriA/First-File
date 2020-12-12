@@ -20,7 +20,6 @@ for (s in s.eigen$values) {
 plot(s.eigen$values, xlab = 'Eigenvalue Number', ylab = 'Eigenvalue Size', main = 'Scree Graph')
 lines(s.eigen$values)
 
-
 s.eigen$vectors
 
 #Visualize
